@@ -1,7 +1,6 @@
 #!/bin/bash
 
 hours = 2
-hour_to_seconds = 60 * 60
-seconds = hours * hour_to_seconds
+seconds = hours * 3600
 
 print(hours , "hour(s) is ", seconds, "seconds")
