@@ -7,7 +7,7 @@ while True:
     operator = input("Choose the operation (+, -, *, /): ")
 
     # Use match case to handle operations
-    match operator:
+    match operation:
         case "+":
             result = num1 + num2
             print("The result is", result)
