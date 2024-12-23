@@ -4,7 +4,7 @@ while True:
     # Get input from the user
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
-    operator = input("Choose the operation (+, -, *, /): ")
+    operation = input("Choose the operation (+, -, *, /): ")
 
     # Use match case to handle operations
     match operation:
