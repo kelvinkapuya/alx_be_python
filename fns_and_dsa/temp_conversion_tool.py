@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define global conversion factors
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Global variable for Celsius to Fahrenheit
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Global variable for Fahrenheit to Celsius
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5  # Global variable for Celsius to Fahrenheit
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9  # Global variable for Fahrenheit to Celsius
 
 def convert_to_celsius(fahrenheit):
     """
