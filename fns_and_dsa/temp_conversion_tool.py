@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # Define global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Exact definition included
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Global variable for Celsius to Fahrenheit
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Global variable for Fahrenheit to Celsius
 
 def convert_to_celsius(fahrenheit):
     """
-    Converts a temperature from Fahrenheit to Celsius.
+    Converts a temperature from Fahrenheit to Celsius using the global conversion factor.
     """
     return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
     """
-    Converts a temperature from Celsius to Fahrenheit.
+    Converts a temperature from Celsius to Fahrenheit using the global conversion factor.
     """
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 
@@ -41,3 +41,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
