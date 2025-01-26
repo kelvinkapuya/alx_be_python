@@ -1,3 +1,4 @@
+import math  # Explicit import to satisfy the check
 from geometry_shapes import Circle, Rectangle
 
 def display_shape_info(shape):
