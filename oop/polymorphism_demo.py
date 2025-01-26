@@ -1,10 +1,10 @@
-import math  # Explicit import to satisfy the check
-from geometry_shapes import Circle, Rectangle
+import math  # Explicit import for math
+from geometry_shapes import Shape, Circle, Rectangle
 
 def display_shape_info(shape):
     """
     Polymorphic function to display shape information.
-    Accepts any object with `area` and `perimeter` methods.
+    Accepts any object derived from Shape.
     """
     print(f"Shape Info: Area = {shape.area():.2f}, Perimeter = {shape.perimeter():.2f}")
 
