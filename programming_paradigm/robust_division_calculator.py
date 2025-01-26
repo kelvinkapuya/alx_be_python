@@ -11,9 +11,8 @@ def safe_divide(numerator, denominator):
 
         # Perform division
         result = num / denom
-        return f"The result of the division is {result:.2f}"
+        return f"The result of the division is {result}"
 
     except ValueError:
         # Handle non-numeric inputs
         return "Error: Please enter numeric values only."
-
